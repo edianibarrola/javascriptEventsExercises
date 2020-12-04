@@ -4,3 +4,9 @@ window.onload = function myLoadFunction() {
 };
 
 //the listener function here
+var myWujuFunction = () => {
+	alert("wuju");
+};
+// Add event listener to table
+const el = document.querySelector("#theGreen");
+el.addEventListener("click", myWujuFunction, false);
